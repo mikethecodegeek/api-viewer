@@ -4,8 +4,20 @@
   <meta charset="UTF-8">
   <title>Angular</title>
   <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="/js/module.js"></script>
+  <script src="/js/controllers.js"</script>
+
 </head>
-<body ng-app>
+<body ng-app='routerApp'>
+  <!-- navbar?? -->
   <h1>Angular</h1>
+  <div>
+    <button>Home</button>
+    <button>Contact</button>
+  </div>
+ <!-- Where the templates go! -->
+  <ui-view></ui-view>
+
 </body>
 </html>
