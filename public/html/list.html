@@ -1,4 +1,5 @@
 <h1>Breaking Bad</h1>
+<h2>Season: {{episodes[0].season}}</h2>
 <ul>
   <li class='card2' ng-repeat='ep in episodes | filter:{season: seasonFilter}' ui-sref='detail({
     ep:ep.number,
@@ -7,3 +8,4 @@
   {{ep.name}}
   </li>
 </ul>
+<button class = 'homebutton' ui-sref='home'>Home</button>

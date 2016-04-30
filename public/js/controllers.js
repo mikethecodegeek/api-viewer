@@ -12,7 +12,7 @@ app.controller('homeCtrl', function(Show, $scope) {
         });
         Show.getSeasons()
         .then(show => {
-          console.log(show);
+        //  console.log(show);
             $scope.seasons = show.data;
             });
 });
@@ -23,6 +23,7 @@ app.controller('listCtrl', function(Show, $state, $q, $scope) {
   .then(show => {
      $scope.seasonFilter =$state.params.season;
       $scope.episodes = show.data;
+
 
   })
 

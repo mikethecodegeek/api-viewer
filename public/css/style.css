@@ -6,10 +6,12 @@ body {
 .card {
   background-image: url("https://wallpaperscraft.com/image/green_background_texture_solid_color_65793_2560x1600.jpg");
   color: white;
-  text-align: center
+  text-align: center;
+  border: thin solid black;
+  margin: 10px;
 }
 
-h1 {
+h1, h2 {
   text-align: center
 }
 
@@ -24,10 +26,21 @@ h1 {
   height: 50px;
   font-size: 30px;
   text-align: center;
-  color: white
+  color: white;
+  border: thin solid black;
+  margin-top: 10px;
 }
 
 .summary {
   color: white;
   font-size: 18px;
+}
+
+ul {
+  list-style: none;
+}
+
+.listbutton, .homebutton {
+  background-color: darkgreen;
+  color: white;
 }
