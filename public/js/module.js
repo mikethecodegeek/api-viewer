@@ -1,6 +1,6 @@
 'use strict';
 
-var app = angular.module('routerApp', ['ui.router']);
+var app = angular.module('routerApp', ['ui.router', 'ngSanitize']);
 app.config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
