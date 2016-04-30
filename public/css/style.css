@@ -1,0 +1,33 @@
+body {
+  background-image: url("http://eskipaper.com/images/black-backgrounds-7.jpg");
+  color: white
+}
+
+.card {
+  background-image: url("https://wallpaperscraft.com/image/green_background_texture_solid_color_65793_2560x1600.jpg");
+  color: white;
+  text-align: center
+}
+
+h1 {
+  text-align: center
+}
+
+.detail {
+  text-align: center;
+  color: white;
+  font-size: 26px;
+}
+
+.card2 {
+  background-image: url('https://wallpaperscraft.com/image/green_background_texture_solid_color_65793_2560x1600.jpg');
+  height: 50px;
+  font-size: 30px;
+  text-align: center;
+  color: white
+}
+
+.summary {
+  color: white;
+  font-size: 18px;
+}

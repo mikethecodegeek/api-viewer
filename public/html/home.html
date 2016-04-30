@@ -1,1 +1,19 @@
-<h1> This is home!</h1>
+<h1 class="text-center">Breaking Bad</h1>
+<div>
+  <div>
+    <img class= 'center-block' src="{{show.image.medium}}" alt="">
+  </div>
+  <div class='summary'>
+    {{show.summary}}
+  </div>
+  <div>
+    seasons
+    <div>
+      <div class="card col-md-4" ng-repeat="s in seasons" ui-sref='list({season:s.number})'>
+        <div>Season: {{s.number}}</div>
+        <div>{{s.premiereDate}} - {{s.endDate}}</div>
+      </div>
+
+    </div>
+  </div>
+</div>
